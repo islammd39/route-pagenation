@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+a{
+  color: coral;
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 15px 10px;
+}
+a:hover{
+  color: #282c34;
+  background-color: aliceblue;
+  padding: 15px 10px;
+  border-radius: 5px;
+}

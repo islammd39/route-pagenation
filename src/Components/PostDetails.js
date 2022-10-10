@@ -3,7 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 
 const PostDetails = () => {
     const post = useLoaderData()
-    console.log(post);
+    // console.log(post);
     return (
         <div>
             <h1>Here is details</h1>

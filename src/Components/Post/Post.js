@@ -7,7 +7,7 @@ const Post = ({post}) => {
     // console.log(post);
     return (
          <div className='post-id'>
-            <p>Post Id : <Link to={`/users/${id}`} >{id}</Link></p>
+            <p>Post Id : <Link to={`/users/${id}`} >id</Link></p>
             <p>User Id : {userId}</p>
             <h3>Title : {title}</h3>
         </div>
